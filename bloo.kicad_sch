@@ -18098,7 +18098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B6B-XH-A/1000381"
 			(at 387.985 90.805 0)
 			(effects
 				(font
@@ -18675,7 +18675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B6B-XH-A/1000381"
 			(at 357.505 92.075 0)
 			(effects
 				(font
