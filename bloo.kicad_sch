@@ -7891,7 +7891,7 @@
 		)
 		(uuid "bdaa8aa5-cf95-4a11-beb9-2df770472483")
 	)
-	(text "Button, LEDs, Buzzer"
+	(text "Button, LEDs\n"
 		(exclude_from_sim no)
 		(at 170.18 283.21 0)
 		(effects
