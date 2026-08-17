@@ -27,7 +27,8 @@ This repository contains:
 
 2. At "Choose Components," make sure all check boxes are selected 
 (should be default)
-![At Choose Components window](img/kicad-windows.png)
+
+<img src="img/kicad-windows.png" width="500">
 
 3. Select **Next**, and then install.
 </details>
@@ -37,12 +38,13 @@ This repository contains:
 
 1. Double-click `kicad-unified-universal-#.#.#.dmg` file in finder
 
+<img src="img/kicad-mac1.png" width="600">
+
 2. Click and drag the `KiCad.app` to Application folder.
-![Open the DMG file](img/kicad-mac1.png)
 
 3. Close the window, and Eject the `.dmg` file from Finder.
 
-![Eject the DMG file](img/kicad-mac2.png)
+<img src="img/kicad-mac2.png" height="300">
 </details>
 
 <details>
@@ -73,13 +75,17 @@ a recommended step-by-step installation will be provided below.
 <summary><b>Windows</b></summary>
 
 1. Install **Git for Windows** from this link: [https://git-scm.com/install/windows](https://git-scm.com/install/windows).
-![Installation link](img/git-windows0.png)
+
+<img src="img/git-windows0.png" width="550">
 
 2. After installing the executable, give the installer permissions.
-![Give permission for installer](img/git-windows1.png)
+
+<img src="img/git-windows1.png" width="400">
 
 3. Select **Next** 4 times, and reach "Choosing the default editor used by Git"
-![Give permission for installer](img/git-windows3.png)
+
+<img src="img/git-windows3.png" width="600">
+
 Choose your favorite editor, and after setup you can still change the 
 default editor with this command:
 ```sh
@@ -89,7 +95,8 @@ git config --global core.editor "editor-name"
 4. Select **Next** to "Adjusting the name of the initial branch in 
 new repositories"
 - Use default branch name as `main`, since GitHub defaults to `main` as well.
-![Give permission for installer](img/git-windows4.png)
+
+<img src="img/git-windows4.png" width="600">
 
 
 5. Keep selecting **Next** and finish installing.
@@ -142,18 +149,18 @@ For a GUI experience, try out these software:
 
 Source: [https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
-Click the green button labled **<> Code**
+1. Click the green button labled **<> Code**
 
-![At Choose Components window](img/clone1.png)
+<img src="img/clone1.png" width="600">
 
-Copy the clone link as HTTPS
+2. Copy the clone link as HTTPS
 
-![At Choose Components window](img/clone2.png)
+<img src="img/clone2.png" width="500">
 
-Open your terminal, change directory to somewhere you want to put your 
+3. Open your terminal, change directory to somewhere you want to put your 
 local repository in.
 
-Type `git clone `, then paste and run the command:
+4. Type `git clone `, then paste and run the command:
 ```sh
 $ git clone https://github.com/Maahi-V/26-27-UCI-Kit-Micromouse.git
 >   Cloning into '26-27-UCI-Kit-Micromouse'...
@@ -183,27 +190,49 @@ For more details, use the `man git` command or use the official
 documentation: [https://git-scm.com/docs](https://git-scm.com/docs).
 ```sh
 git status
+```
 
+```sh
 git log
+```
 
+```sh
 git reflog
+```
 
+```sh
 git fetch
+```
 
+```sh
 git pull
+```
 
+```sh
 git add
+```
 
+```sh
 git diff
+```
 
+```sh
 git push
+```
 
+```sh
 git rebase
+```
 
+```sh
 git branch
+```
 
+```sh
 git switch
+```
 
+```sh
 git checkout
 ```
 
