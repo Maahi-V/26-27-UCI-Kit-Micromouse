@@ -12258,28 +12258,6 @@
 		)
 		(uuid "ffb86135-b43f-4a42-9aa6-73aa7ba972a9")
 	)
-	(global_label "+5V_NET"
-		(shape input)
-		(at 132.08 165.1 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0027d36d-799e-4402-b220-0518683fba57")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 154.4838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3V3_BYP"
 		(shape input)
 		(at 97.155 139.065 0)
@@ -21917,6 +21895,70 @@
 			(project ""
 				(path "/9031bb33-c6aa-4758-bf5c-3274ed3ebab7"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 132.08 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "975f5b03-57e6-440d-a9f5-fd65ecd0a2e9")
+		(property "Reference" "#PWR018"
+			(at 132.08 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 132.461 160.7058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c61a2f9-b3b3-49b6-9280-d05fab0a96a7")
+		)
+		(instances
+			(project "bloo"
+				(path "/9031bb33-c6aa-4758-bf5c-3274ed3ebab7"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
