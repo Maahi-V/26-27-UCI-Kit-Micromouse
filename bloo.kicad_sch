@@ -20891,7 +20891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MM_Library:Motor Headers"
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
 			(at 389.89 78.74 0)
 			(effects
 				(font
@@ -21968,7 +21968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MM_Library:Motor Headers"
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
 			(at 355.6 78.74 0)
 			(effects
 				(font
