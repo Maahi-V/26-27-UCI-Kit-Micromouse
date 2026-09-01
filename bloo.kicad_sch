@@ -14299,7 +14299,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "35"
+		(property "Value" "36"
 			(at 108.331 41.402 0)
 			(effects
 				(font
@@ -14317,7 +14317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 106.553 40.259 0)
 			(effects
 				(font
@@ -14334,7 +14334,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C18006"
 			(at 106.553 40.259 0)
 			(effects
 				(font
@@ -14411,7 +14411,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2900370"
 			(at 106.553 28.829 90)
 			(effects
 				(font
@@ -14471,7 +14471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/81549/teft4300.pdf"
 			(at 57.658 87.503 0)
 			(effects
 				(font
@@ -14488,7 +14488,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C118301"
 			(at 57.658 87.503 0)
 			(effects
 				(font
@@ -14548,7 +14548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/81549/teft4300.pdf"
 			(at 76.073 86.995 0)
 			(effects
 				(font
@@ -14565,7 +14565,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C118301"
 			(at 76.073 86.995 0)
 			(effects
 				(font
@@ -14625,7 +14625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/81549/teft4300.pdf"
 			(at 125.349 86.36 0)
 			(effects
 				(font
@@ -14642,7 +14642,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C118301"
 			(at 125.349 86.36 0)
 			(effects
 				(font
@@ -14702,7 +14702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/81549/teft4300.pdf"
 			(at 101.727 86.868 0)
 			(effects
 				(font
@@ -14719,7 +14719,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C118301"
 			(at 101.727 86.868 0)
 			(effects
 				(font
@@ -14761,7 +14761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.8k"
+		(property "Value" "1.8K"
 			(at 58.42 101.6 0)
 			(effects
 				(font
@@ -14779,7 +14779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 60.198 102.743 0)
 			(effects
 				(font
@@ -14796,7 +14796,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C22108"
 			(at 60.198 102.743 0)
 			(effects
 				(font
@@ -14838,7 +14838,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.8k"
+		(property "Value" "1.8K"
 			(at 76.835 101.092 0)
 			(effects
 				(font
@@ -14856,7 +14856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 78.613 102.235 0)
 			(effects
 				(font
@@ -14873,7 +14873,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C22108"
 			(at 78.613 102.235 0)
 			(effects
 				(font
@@ -14915,7 +14915,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.8k"
+		(property "Value" "1.8K"
 			(at 126.111 100.457 0)
 			(effects
 				(font
@@ -14933,7 +14933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 127.889 101.6 0)
 			(effects
 				(font
@@ -14950,7 +14950,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C22108"
 			(at 127.889 101.6 0)
 			(effects
 				(font
@@ -14992,7 +14992,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.8k"
+		(property "Value" "1.8K"
 			(at 102.489 100.965 0)
 			(effects
 				(font
@@ -15010,7 +15010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 104.267 102.108 0)
 			(effects
 				(font
@@ -15027,7 +15027,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C22108"
 			(at 104.267 102.108 0)
 			(effects
 				(font
@@ -15085,7 +15085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 102.743 61.849 0)
 			(effects
 				(font
@@ -15102,7 +15102,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25664"
 			(at 102.743 61.849 90)
 			(effects
 				(font
@@ -15144,7 +15144,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "35"
+		(property "Value" "36"
 			(at 145.796 41.783 0)
 			(effects
 				(font
@@ -15162,7 +15162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 144.018 40.64 0)
 			(effects
 				(font
@@ -15179,7 +15179,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C18006"
 			(at 144.018 40.64 0)
 			(effects
 				(font
@@ -15256,7 +15256,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2900370"
 			(at 144.018 29.21 90)
 			(effects
 				(font
@@ -15314,7 +15314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 140.208 62.23 0)
 			(effects
 				(font
@@ -15331,7 +15331,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25664"
 			(at 140.208 62.23 90)
 			(effects
 				(font
@@ -15373,7 +15373,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "35"
+		(property "Value" "36"
 			(at 34.798 40.513 0)
 			(effects
 				(font
@@ -15391,7 +15391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 33.02 39.37 0)
 			(effects
 				(font
@@ -15408,7 +15408,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C18006"
 			(at 33.02 39.37 0)
 			(effects
 				(font
@@ -15485,7 +15485,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2900370"
 			(at 33.02 27.94 90)
 			(effects
 				(font
@@ -15543,7 +15543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 29.21 60.96 0)
 			(effects
 				(font
@@ -15560,7 +15560,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25664"
 			(at 29.21 60.96 90)
 			(effects
 				(font
@@ -15602,7 +15602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "35"
+		(property "Value" "36"
 			(at 72.898 40.513 0)
 			(effects
 				(font
@@ -15620,7 +15620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 71.12 39.37 0)
 			(effects
 				(font
@@ -15637,7 +15637,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C18006"
 			(at 71.12 39.37 0)
 			(effects
 				(font
@@ -15714,7 +15714,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2900370"
 			(at 71.12 27.94 90)
 			(effects
 				(font
@@ -15772,7 +15772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 67.31 60.96 0)
 			(effects
 				(font
@@ -15789,7 +15789,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25664"
 			(at 67.31 60.96 90)
 			(effects
 				(font
@@ -15865,7 +15865,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C129950"
 			(at 106.045 168.91 0)
 			(effects
 				(font
@@ -16212,7 +16212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C39127.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=FlVXBVxWE1lfAgBVEVNcBldTEQRYUlVWRFkKUFVSTgUxVlNeT1NaVFxRQVdWXzsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D"
 			(at 91.44 176.53 0)
 			(effects
 				(font
@@ -16229,7 +16229,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C39127"
 			(at 91.44 176.53 0)
 			(effects
 				(font
@@ -16288,7 +16288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://spec_sheets.e-switch.com/specs/P040040.pdf"
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/Datasheets/500.pdf"
 			(at 34.925 176.53 0)
 			(effects
 				(font
@@ -16388,7 +16388,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C6689036"
 			(at 40.005 168.91 0)
 			(effects
 				(font
@@ -16451,7 +16451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eEH.pdf"
 			(at 27.94 176.276 90)
 			(effects
 				(font
@@ -16468,7 +16468,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C160262 "
 			(at 27.94 177.8 0)
 			(effects
 				(font
@@ -16528,7 +16528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TAJ_AUTO.pdf"
 			(at 122.555 177.165 0)
 			(effects
 				(font
@@ -16545,7 +16545,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C1952791"
 			(at 122.555 177.165 0)
 			(effects
 				(font
@@ -16603,7 +16603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT2012LSECK-J3-PRV.pdf"
 			(at 123.19 247.65 0)
 			(effects
 				(font
@@ -16620,7 +16620,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C5879380"
 			(at 123.19 247.65 0)
 			(effects
 				(font
@@ -16680,7 +16680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-AC_51_ROHS_L"
 			(at 133.35 247.65 0)
 			(effects
 				(font
@@ -16697,7 +16697,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C17985"
 			(at 133.35 247.65 0)
 			(effects
 				(font
@@ -16755,7 +16755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080GS75000.pdf"
 			(at 123.19 234.315 0)
 			(effects
 				(font
@@ -16772,7 +16772,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2890404"
 			(at 123.19 234.315 0)
 			(effects
 				(font
@@ -16832,7 +16832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 133.985 234.315 0)
 			(effects
 				(font
@@ -16849,7 +16849,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C17987"
 			(at 133.985 234.315 0)
 			(effects
 				(font
@@ -16907,7 +16907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579709206389587968-C2293.pdf?response-content-disposition=attachment%3B%20filename%3DC2293.pdf%3B%20filename%2A%3DUTF-8%27%27C2293.pdf&x-oss-date=20260901T060813Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5naA9SA2KVk%2FIe6NW6Ar3gddMgUpLefrzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qclKjT0s557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWqppVeFtw6HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMI1LqVL6KWD5sagAFa71heCbuFfLbiT%2FD3xKH5WfGGuffM%2F1rtlp7yWBr0qBx6xcp9zSvEZOSAlQnG38C5IULHsFbH4uhCXpUfSfYClFaKuyF9wBZOFN7HkOO%2FXMNrhwDSwwxzMntgoy9YFUI%2FFGA5sl4xAqNQX%2BnSPGwpRPsJyOEfC1zgfrWYj9tfNyAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZoHn45zEKEQ7H1KxHxG8Kr4M%2F20260901%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=479d7e515c34864e5011d0683e0b2e3ba46d104599de2d791cd0b25fd23c415d"
 			(at 123.825 220.98 0)
 			(effects
 				(font
@@ -16924,7 +16924,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2293"
 			(at 123.825 220.98 0)
 			(effects
 				(font
@@ -16984,7 +16984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 133.985 220.98 0)
 			(effects
 				(font
@@ -17001,7 +17001,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C17987"
 			(at 133.985 220.98 0)
 			(effects
 				(font
@@ -17061,7 +17061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 49.53 177.8 0)
 			(effects
 				(font
@@ -17078,7 +17078,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C18003"
 			(at 49.53 177.8 0)
 			(effects
 				(font
@@ -17138,7 +17138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 49.53 189.23 0)
 			(effects
 				(font
@@ -17155,7 +17155,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2479751"
 			(at 49.53 189.23 0)
 			(effects
 				(font
@@ -17549,7 +17549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 160.02 176.53 0)
 			(effects
 				(font
@@ -17566,7 +17566,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C600013"
 			(at 160.02 176.53 0)
 			(effects
 				(font
@@ -17626,7 +17626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC_2512.pdf"
 			(at 49.53 143.51 0)
 			(effects
 				(font
@@ -17643,7 +17643,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C28322"
 			(at 49.53 143.51 0)
 			(effects
 				(font
@@ -17701,7 +17701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/34029/ilsb1206.pdf"
 			(at 142.24 135.89 0)
 			(effects
 				(font
@@ -17718,7 +17718,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C845121"
 			(at 142.24 135.89 90)
 			(effects
 				(font
@@ -17842,7 +17842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC_2512.pdf"
 			(at 86.36 141.605 0)
 			(effects
 				(font
@@ -17859,7 +17859,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C28322"
 			(at 86.36 141.605 0)
 			(effects
 				(font
@@ -17964,7 +17964,7 @@
 				)
 			)
 		)
-		(property "Value" "APE8865Y5-33-HF-3"
+		(property "Value" "NCP161ASN330T1G"
 			(at 73.025 132.0546 0)
 			(effects
 				(font
@@ -17999,7 +17999,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C892187"
 			(at 73.025 138.43 0)
 			(effects
 				(font
@@ -18132,7 +18132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC_2512.pdf"
 			(at 138.43 93.98 0)
 			(effects
 				(font
@@ -18149,7 +18149,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C28322"
 			(at 138.43 93.98 0)
 			(effects
 				(font
@@ -18209,7 +18209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 79.375 176.53 0)
 			(effects
 				(font
@@ -18226,7 +18226,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C600013"
 			(at 79.375 176.53 0)
 			(effects
 				(font
@@ -18286,7 +18286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC_2512.pdf"
 			(at 146.685 93.98 0)
 			(effects
 				(font
@@ -18303,7 +18303,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C28322"
 			(at 146.685 93.98 0)
 			(effects
 				(font
@@ -18363,7 +18363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC_2512.pdf"
 			(at 154.94 93.98 0)
 			(effects
 				(font
@@ -18380,7 +18380,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C28322"
 			(at 154.94 93.98 0)
 			(effects
 				(font
@@ -18440,7 +18440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC_2512.pdf"
 			(at 162.56 93.98 0)
 			(effects
 				(font
@@ -18457,7 +18457,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C28322"
 			(at 162.56 93.98 0)
 			(effects
 				(font
@@ -18645,7 +18645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf"
 			(at 67.31 176.53 0)
 			(effects
 				(font
@@ -18662,7 +18662,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C1590882"
 			(at 67.31 176.53 0)
 			(effects
 				(font
@@ -18722,7 +18722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C39127.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=FlVXBVxWE1lfAgBVEVNcBldTEQRYUlVWRFkKUFVSTgUxVlNeT1NaVFxRQVdWXzsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D"
 			(at 110.49 141.605 0)
 			(effects
 				(font
@@ -18739,7 +18739,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C39127"
 			(at 110.49 141.605 0)
 			(effects
 				(font
@@ -18799,7 +18799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 121.285 141.605 0)
 			(effects
 				(font
@@ -18816,7 +18816,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C600013"
 			(at 121.285 141.605 0)
 			(effects
 				(font
@@ -18876,7 +18876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf"
 			(at 144.78 177.165 0)
 			(effects
 				(font
@@ -18893,7 +18893,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C1590882"
 			(at 144.78 177.165 0)
 			(effects
 				(font
@@ -19017,7 +19017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1091_C0G_ESD"
 			(at 147.32 146.685 0)
 			(effects
 				(font
@@ -19034,7 +19034,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C1846"
 			(at 147.32 146.685 0)
 			(effects
 				(font
@@ -19094,7 +19094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 74.549 228.346 0)
 			(effects
 				(font
@@ -19111,7 +19111,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25664"
 			(at 74.549 228.346 0)
 			(effects
 				(font
@@ -19650,7 +19650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/PJA3428.pdf"
 			(at 117.983 44.704 0)
 			(effects
 				(font
@@ -19667,7 +19667,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C5310967"
 			(at 117.983 44.704 0)
 			(effects
 				(font
@@ -19730,7 +19730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/PJA3428.pdf"
 			(at 154.813 45.085 0)
 			(effects
 				(font
@@ -19747,7 +19747,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C5310967"
 			(at 154.813 45.085 0)
 			(effects
 				(font
@@ -19810,7 +19810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/PJA3428.pdf"
 			(at 80.645 44.45 0)
 			(effects
 				(font
@@ -19827,7 +19827,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C5310967"
 			(at 80.645 44.45 0)
 			(effects
 				(font
@@ -19890,7 +19890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/PJA3428.pdf"
 			(at 42.545 45.085 0)
 			(effects
 				(font
@@ -19907,7 +19907,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C5310967"
 			(at 42.545 45.085 0)
 			(effects
 				(font
@@ -20308,7 +20308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "C2801245"
 			(at 108.585 267.335 0)
 			(effects
 				(font
@@ -20325,7 +20325,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2801245"
 			(at 108.585 272.415 0)
 			(effects
 				(font
@@ -20385,7 +20385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 97.155 264.16 0)
 			(effects
 				(font
@@ -20402,7 +20402,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25664"
 			(at 97.155 264.16 0)
 			(effects
 				(font
@@ -20590,7 +20590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 100.965 276.225 0)
 			(effects
 				(font
@@ -20607,7 +20607,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C600013"
 			(at 100.965 276.225 0)
 			(effects
 				(font
@@ -20665,7 +20665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "C2801245"
 			(at 85.979 231.521 0)
 			(effects
 				(font
@@ -20682,7 +20682,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2801245"
 			(at 85.979 236.601 0)
 			(effects
 				(font
@@ -20713,7 +20713,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000064625826")
 		(property "Reference" "U1"
 			(at 219.075 37.9476 0)
@@ -20757,7 +20757,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C22396880"
 			(at 219.075 70.485 0)
 			(effects
 				(font
@@ -21295,7 +21295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10B104KA8NNNC_Spec.pdf"
 			(at 375.92 123.19 0)
 			(effects
 				(font
@@ -21313,7 +21313,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C1590"
 			(at 375.92 123.19 0)
 			(effects
 				(font
@@ -21575,7 +21575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B6B-XH-A/1000381"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 389.89 78.74 0)
 			(effects
 				(font
@@ -21592,7 +21592,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C144397"
 			(at 389.89 78.74 0)
 			(effects
 				(font
@@ -21662,7 +21662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "C2801245"
 			(at 58.547 218.948 0)
 			(effects
 				(font
@@ -21679,7 +21679,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2801245"
 			(at 58.547 224.028 0)
 			(effects
 				(font
@@ -22066,7 +22066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 47.117 215.773 0)
 			(effects
 				(font
@@ -22083,7 +22083,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25664"
 			(at 47.117 215.773 0)
 			(effects
 				(font
@@ -22185,7 +22185,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "660c08ce-6059-48dd-99e4-9fbbbdc7e8c3")
 		(property "Reference" "U5"
@@ -22540,7 +22540,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C12340"
 			(at 316.23 52.07 0)
 			(effects
 				(font
@@ -22706,7 +22706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B6B-XH-A/1000381"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 355.6 78.74 0)
 			(effects
 				(font
@@ -22723,7 +22723,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C144397"
 			(at 355.6 78.74 0)
 			(effects
 				(font
@@ -23101,7 +23101,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
 			(at 378.46 154.94 90)
 			(effects
 				(font
@@ -23118,7 +23118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 378.46 149.86 0)
 			(effects
 				(font
@@ -23136,7 +23136,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2479071"
 			(at 378.46 149.86 90)
 			(effects
 				(font
@@ -23516,7 +23516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC_2512.pdf"
 			(at 356.87 30.48 0)
 			(effects
 				(font
@@ -23533,7 +23533,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C28322"
 			(at 356.87 30.48 0)
 			(effects
 				(font
@@ -23591,7 +23591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "C2801245"
 			(at 74.93 254.635 0)
 			(effects
 				(font
@@ -23608,7 +23608,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2801245"
 			(at 74.93 259.715 0)
 			(effects
 				(font
@@ -23735,7 +23735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 276.86 32.385 0)
 			(effects
 				(font
@@ -23752,7 +23752,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C600013"
 			(at 276.86 32.385 0)
 			(effects
 				(font
@@ -23880,7 +23880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 63.5 251.46 0)
 			(effects
 				(font
@@ -23897,7 +23897,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2479751"
 			(at 63.5 251.46 0)
 			(effects
 				(font
@@ -24176,7 +24176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/76/2/GRM188R60J476ME15_01A.pdf"
 			(at 391.16 123.19 0)
 			(effects
 				(font
@@ -24194,7 +24194,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C140782"
 			(at 391.16 123.19 0)
 			(effects
 				(font
