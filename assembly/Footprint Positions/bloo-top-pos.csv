@@ -1,4 +1,4 @@
-Ref,Val,Package,PosX,PosY,Rot,Side
+Designator,Value,Footprint,Mid X,Mid Y,Rotation,Layer
 "BT1","Battery_Cell","PinSocket_1x02_P2.54mm_Vertical",211.680000,-131.210000,180.000000,top
 "C1","0.1uF","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",226.770000,-131.022500,90.000000,top
 "C2","100uF","CP_Radial_D6.3mm_P2.50mm",225.970000,-124.500000,180.000000,top
@@ -74,8 +74,6 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "TP4","TP_3V3","PinHeader_1x01_P2.54mm_Vertical",214.690000,-82.430000,0.000000,top
 "TP5","GND_TP","PinHeader_1x01_P2.54mm_Vertical",284.610000,-65.130000,0.000000,top
 "TP6","GND_TP","PinHeader_1x01_P2.54mm_Vertical",256.190000,-126.830000,0.000000,top
-"U1","YAAJ_BluePill_SWD_Breakout","STM32F103",252.050000,-74.720000,90.000000,top
 "U2","L293D","DIP-16_W7.62mm",278.390000,-123.130000,-90.000000,top
 "U3","LM1085-5.0","5V Voltage Reg",237.011000,-136.000000,0.000000,top
 "U4","NCP161ASN330T1G","SOT-23-5",215.640000,-74.067500,-90.000000,top
-"U5","BC832","XCVR_BC832",291.492500,-129.691000,180.000000,top
