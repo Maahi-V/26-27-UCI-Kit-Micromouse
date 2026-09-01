@@ -69,8 +69,7 @@
 			(copper_finish "None")
 			(dielectric_constraints no)
 		)
-		(pad_to_mask_clearance 0.2)
-		(solder_mask_min_width 0.25)
+		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
