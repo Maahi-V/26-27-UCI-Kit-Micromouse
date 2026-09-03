@@ -9296,7 +9296,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 135.89) (xy 370.84 135.89)
+			(xy 375.92 135.89) (xy 370.84 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9876,7 +9876,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 163.83) (xy 325.12 163.83)
+			(xy 321.31 163.83) (xy 325.12 163.83)
 		)
 		(stroke
 			(width 0)
@@ -13786,7 +13786,7 @@
 	)
 	(global_label "BLE_LED"
 		(shape output)
-		(at 377.19 135.89 0)
+		(at 375.92 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13796,7 +13796,7 @@
 		)
 		(uuid "4e31787f-9b88-44da-b63e-66f5c5732c77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 387.3828 135.89 0)
+			(at 386.1128 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14335,7 +14335,7 @@
 	)
 	(global_label "BLE_STATE"
 		(shape output)
-		(at 322.58 163.83 180)
+		(at 321.31 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14345,7 +14345,7 @@
 		)
 		(uuid "a998da4b-a91a-4736-b1f9-592f0ea4dfba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 310.452 163.83 0)
+			(at 309.182 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
