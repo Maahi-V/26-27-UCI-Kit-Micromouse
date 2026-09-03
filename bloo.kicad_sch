@@ -22979,7 +22979,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 295.91 137.4648 0)
 			(effects
 				(font
@@ -23712,7 +23712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 295.91 124.7648 0)
 			(effects
 				(font
@@ -25546,7 +25546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AS07-XTAL:XTAL_ABS07-32.768KHZ-T"
+		(property "Footprint" "MM_Library:CAP_ABS07-32.768KHZ-T_ABR"
 			(at 299.72 132.08 0)
 			(effects
 				(font
