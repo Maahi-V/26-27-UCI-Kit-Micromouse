@@ -9197,6 +9197,10 @@
 		(uuid "0cd96939-4316-4601-800f-098a35f281e0")
 	)
 	(no_connect
+		(at 370.84 138.43)
+		(uuid "0f6f8942-60b2-4de6-899d-cba01ec461b9")
+	)
+	(no_connect
 		(at 218.44 48.26)
 		(uuid "10fa1a8c-62cb-4b8f-b916-b18d737ff71b")
 	)
@@ -9211,14 +9215,6 @@
 	(no_connect
 		(at 325.12 166.37)
 		(uuid "2a19e3e4-e176-4dc4-aa20-e2e2ecbcb5dd")
-	)
-	(no_connect
-		(at 370.84 135.89)
-		(uuid "37e77636-9737-40c3-8582-51e5806c0f9c")
-	)
-	(no_connect
-		(at 325.12 163.83)
-		(uuid "3e893391-0c79-45cd-886f-f0002edd2086")
 	)
 	(no_connect
 		(at 325.12 146.05)
@@ -9273,6 +9269,10 @@
 		(uuid "f447e585-df78-4239-b8cb-4653b3837bb1")
 	)
 	(no_connect
+		(at 370.84 133.35)
+		(uuid "f8509536-f509-4800-8414-2203236099ea")
+	)
+	(no_connect
 		(at 370.84 130.81)
 		(uuid "f9fc0fb9-86ec-4bc1-a078-0d590dfaf61b")
 	)
@@ -9293,6 +9293,16 @@
 			(type default)
 		)
 		(uuid "003974b6-cb8f-491b-a226-fc7891eb9a62")
+	)
+	(wire
+		(pts
+			(xy 377.19 135.89) (xy 370.84 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01eb173c-6ec2-4a77-afa1-9a72728a0c0b")
 	)
 	(wire
 		(pts
@@ -9513,16 +9523,6 @@
 			(type default)
 		)
 		(uuid "0febcf41-b60d-40e0-b0a6-f8febaf1f75a")
-	)
-	(wire
-		(pts
-			(xy 375.92 138.43) (xy 370.84 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "101e63cb-4c3d-4a0d-a2ce-e774f8580b7f")
 	)
 	(wire
 		(pts
@@ -9876,6 +9876,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 163.83) (xy 325.12 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c5aeec-9285-4bfb-b91c-fff8d3b1d326")
+	)
+	(wire
+		(pts
 			(xy 66.675 227.33) (xy 66.675 231.14)
 		)
 		(stroke
@@ -9893,16 +9903,6 @@
 			(type default)
 		)
 		(uuid "24272e87-3ce1-49ca-b3d7-772ddd390bc4")
-	)
-	(wire
-		(pts
-			(xy 374.65 133.35) (xy 370.84 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "242d7614-ebf0-42b9-9b83-1a0c474f5219")
 	)
 	(wire
 		(pts
@@ -13786,7 +13786,7 @@
 	)
 	(global_label "BLE_LED"
 		(shape output)
-		(at 374.65 133.35 0)
+		(at 377.19 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13794,9 +13794,9 @@
 			)
 			(justify left)
 		)
-		(uuid "504b7ab1-a3a2-44e4-b8ed-9e414968f167")
+		(uuid "4e31787f-9b88-44da-b63e-66f5c5732c77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 384.8428 133.35 0)
+			(at 387.3828 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14333,6 +14333,28 @@
 			)
 		)
 	)
+	(global_label "BLE_STATE"
+		(shape output)
+		(at 322.58 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a998da4b-a91a-4736-b1f9-592f0ea4dfba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 310.452 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "M1_OUT_2"
 		(shape input)
 		(at 331.47 49.53 0)
@@ -14417,28 +14439,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BLE_STATE"
-		(shape output)
-		(at 375.92 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c39ddbe5-f84a-4505-a0aa-abf136a96750")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 388.048 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
