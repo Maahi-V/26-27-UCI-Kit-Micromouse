@@ -15163,7 +15163,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005d1c62ce")
 		(property "Reference" "D3"
 			(at 101.5492 44.3484 90)
@@ -15240,7 +15240,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005d1cebff")
 		(property "Reference" "Q0"
 			(at 40.8432 110.0074 0)
@@ -15317,7 +15317,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005d1cecaf")
 		(property "Reference" "Q1"
 			(at 59.2582 109.4994 0)
@@ -15394,7 +15394,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005d1cecf5")
 		(property "Reference" "Q2"
 			(at 108.5342 108.8644 0)
@@ -15471,7 +15471,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005d1ced3b")
 		(property "Reference" "Q3"
 			(at 84.9122 109.3724 0)
@@ -16008,7 +16008,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005e01ec70")
 		(property "Reference" "D2"
 			(at 139.0142 44.7294 90)
@@ -16237,7 +16237,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005e02c7f5")
 		(property "Reference" "D0"
 			(at 28.0162 43.4594 90)
@@ -16466,7 +16466,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005e0358b7")
 		(property "Reference" "D1"
 			(at 66.1162 43.4594 90)
@@ -20901,7 +20901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C2801245"
+		(property "Datasheet" ""
 			(at 388.62 212.09 0)
 			(effects
 				(font
@@ -21231,7 +21231,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000064625826")
 		(property "Reference" "U1"
 			(at 206.121 42.799 0)
@@ -22307,7 +22307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C2801245"
+		(property "Datasheet" ""
 			(at 303.53 204.47 0)
 			(effects
 				(font
@@ -23177,7 +23177,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "660c08ce-6059-48dd-99e4-9fbbbdc7e8c3")
 		(property "Reference" "U5"
@@ -24663,7 +24663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C2801245"
+		(property "Datasheet" ""
 			(at 303.53 231.14 0)
 			(effects
 				(font
@@ -25611,6 +25611,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C130253"
+			(at 299.72 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
