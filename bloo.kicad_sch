@@ -24596,7 +24596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_REED_CT05-XXXX-G1"
+		(property "Footprint" "MM_Library:SW4_SKRPABE010_ALPS"
 			(at 46.355 252.73 0)
 			(effects
 				(font
