@@ -15866,7 +15866,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "47K"
 			(at 101.6 71.9836 90)
 			(effects
 				(font
@@ -16095,7 +16095,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "47K"
 			(at 139.065 72.3646 90)
 			(effects
 				(font
@@ -16324,7 +16324,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "47K"
 			(at 28.067 71.0946 90)
 			(effects
 				(font
@@ -16553,7 +16553,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "47K"
 			(at 66.167 71.0946 90)
 			(effects
 				(font
@@ -16697,7 +16697,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005e799fc8")
 		(property "Reference" "SK1"
 			(at 234.95 149.9616 0)
@@ -16768,7 +16768,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005e79a0a3")
 		(property "Reference" "BT_MH2"
 			(at 205.994 149.8346 0)
@@ -16839,7 +16839,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005e79a15b")
 		(property "Reference" "BT_MH1"
 			(at 205.994 139.6746 0)
@@ -16910,7 +16910,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005e79a200")
 		(property "Reference" "SK2"
 			(at 234.95 140.4366 0)
@@ -17266,7 +17266,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C160262 "
+		(property "LCSC Part #" "C99101"
 			(at 30.48 240.03 0)
 			(effects
 				(font
@@ -17953,7 +17953,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2479751"
+		(property "LCSC Part #" "C2479071"
 			(at 52.07 251.46 0)
 			(effects
 				(font
@@ -17984,7 +17984,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006089e032")
 		(property "Reference" "SK3"
 			(at 245.745 140.4366 0)
@@ -18055,7 +18055,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006089e685")
 		(property "Reference" "SK4"
 			(at 246.38 149.9616 0)
@@ -20608,7 +20608,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006391fde6")
 		(property "Reference" "TP2"
 			(at 101.8032 249.0978 0)
@@ -20901,7 +20901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://tech.alpsalpine.com/cms.media/product_spec_skrpabe010_en_c1c577738a.pdf"
 			(at 388.62 212.09 0)
 			(effects
 				(font
@@ -20918,7 +20918,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2801245"
+		(property "LCSC Part #" "C778166"
 			(at 388.62 217.17 0)
 			(effects
 				(font
@@ -21275,7 +21275,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C22396880"
+		(property "LCSC Part #" ""
 			(at 220.98 76.2 0)
 			(effects
 				(font
@@ -21429,7 +21429,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000647f84ba")
 		(property "Reference" "TP5"
 			(at 111.3282 249.0978 0)
@@ -21503,7 +21503,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000647f98b3")
 		(property "Reference" "TP6"
 			(at 122.1232 249.0978 0)
@@ -21641,7 +21641,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "09d9e456-47bb-412d-9874-8dc8d76c4c82")
 		(property "Reference" "BT_MH4"
 			(at 192.913 150.2156 0)
@@ -21776,7 +21776,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "117698d6-a3c5-44ba-bfb6-1267654add1f")
 		(property "Reference" "M_MH1"
 			(at 193.04 171.8056 0)
@@ -22120,7 +22120,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2bc20418-c48a-4c5a-b4e3-6a4a70caec69")
 		(property "Reference" "M_MH2"
 			(at 205.486 171.8056 0)
@@ -22307,7 +22307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://tech.alpsalpine.com/cms.media/product_spec_skrpabe010_en_c1c577738a.pdf"
 			(at 303.53 204.47 0)
 			(effects
 				(font
@@ -22324,7 +22324,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2801245"
+		(property "LCSC Part #" "C778166"
 			(at 303.53 209.55 0)
 			(effects
 				(font
@@ -22826,7 +22826,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "588b280c-c3d0-4af4-8894-4226129e1f82")
 		(property "Reference" "BT_MH3"
 			(at 192.913 140.0556 0)
@@ -23006,6 +23006,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C38523"
+			(at 292.1 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc74b9e0-2f46-4bfd-8141-65511ee10c7b")
 		)
@@ -23147,6 +23156,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 365.76 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C516855"
 			(at 365.76 217.17 0)
 			(effects
 				(font
@@ -23354,7 +23372,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C6470192"
+		(property "LCSC Part #" ""
 			(at 347.98 146.05 0)
 			(effects
 				(font
@@ -23732,6 +23750,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 292.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C38523"
+			(at 292.1 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24663,7 +24690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://tech.alpsalpine.com/cms.media/product_spec_skrpabe010_en_c1c577738a.pdf"
 			(at 303.53 231.14 0)
 			(effects
 				(font
@@ -24680,7 +24707,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2801245"
+		(property "LCSC Part #" "C778166"
 			(at 303.53 236.22 0)
 			(effects
 				(font
@@ -25046,7 +25073,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2479751"
+		(property "LCSC Part #" "C25664"
 			(at 292.1 229.87 0)
 			(effects
 				(font
@@ -25077,7 +25104,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c0ec9df0-fd04-4edb-a0fd-c431ffcd34ab")
 		(property "Reference" "J5"
 			(at 298.45 166.3699 0)
@@ -25496,6 +25523,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 365.76 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C516855"
 			(at 365.76 222.25 0)
 			(effects
 				(font
