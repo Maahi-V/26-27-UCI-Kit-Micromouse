@@ -523,7 +523,7 @@
       "idf": "",
       "netlist": "mouse4.net",
       "plot": "production/plots/",
-      "pos_files": "",
+      "pos_files": "production/assembly/Footprint Positions/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
