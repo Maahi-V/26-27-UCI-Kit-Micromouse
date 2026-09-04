@@ -19,7 +19,7 @@
 "C9","10uF","","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder","https://www.lcsc.com/datasheet/C39127.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=FlVXBVxWE1lfAgBVEVNcBldTEQRYUlVWRFkKUFVSTgUxVlNeT1NaVFxRQVdWXzsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D","C39127"
 "C11","10uF","","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder","https://www.lcsc.com/datasheet/C39127.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=FlVXBVxWE1lfAgBVEVNcBldTEQRYUlVWRFkKUFVSTgUxVlNeT1NaVFxRQVdWXzsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D","C39127"
 "L1","10uH","","Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://www.vishay.com/docs/34029/ilsb1206.pdf","C845121"
-"C6","47µF","","Capacitor_SMD:C_1206_3216Metric","https://www.mouser.com/datasheet/3/76/2/GRM188R60J476ME15_01A.pdf","C140782"
+"C6","47µF","","Capacitor_SMD:C_1206_3216Metric","https://www.mouser.com/datasheet/3/76/2/GRM188R60J476ME15_01A.pdf","C68361"
 "C2","100uF","","Capacitor_THT:CP_Radial_D6.3mm_P2.50mm","https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf","C1590882"
 "C16","100uF","","Capacitor_THT:CP_Radial_D6.3mm_P2.50mm","https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/YXJ.pdf","C1590882"
 "C10","10uF(Tantalum)","","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder","https://datasheets.kyocera-avx.com/TAJ_AUTO.pdf","C1952791"
