@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -522,7 +522,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "mouse4.net",
-      "plot": "plots/",
+      "plot": "production/plots/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
