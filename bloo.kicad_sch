@@ -19900,7 +19900,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006384ab34")
 		(property "Reference" "TP3"
 			(at 148.7932 224.3328 0)
@@ -19974,7 +19974,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006384d3cc")
 		(property "Reference" "TP4"
 			(at 105.6132 176.0728 0)
@@ -20571,7 +20571,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006390b40c")
 		(property "Reference" "TP1"
 			(at 31.9532 223.0628 0)
