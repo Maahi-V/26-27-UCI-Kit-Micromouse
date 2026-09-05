@@ -4289,53 +4289,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "SKRPABE010_1"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+			(property "Reference" "S"
+				(at -5.08 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+			(property "Value" "SKRPABE010"
+				(at -5.08 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
+			(property "Footprint" "BUTTON:SW_SKRPABE010"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -4344,7 +4333,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -4353,12 +4342,54 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "2.5 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Alps"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SKRPABE010_1_0_0"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy 0 1.27)
+					)
 					(stroke
-						(width 0)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -4367,21 +4398,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.048)
+						(xy 0 1.27) (xy 0 5.08)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4390,10 +4410,21 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
+						(xy 0 1.27) (xy 3.81 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -4401,37 +4432,73 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -9486,6 +9553,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 236.22) (xy 313.69 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f0990b1-08ca-4dc9-b6f4-605f7c78c07a")
+	)
+	(wire
+		(pts
 			(xy 135.89 244.475) (xy 125.095 244.475)
 		)
 		(stroke
@@ -9636,7 +9713,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 209.55) (xy 298.45 209.55)
+			(xy 292.1 209.55) (xy 297.18 209.55)
 		)
 		(stroke
 			(width 0)
@@ -10156,16 +10233,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.483 209.55) (xy 308.483 211.582)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "346a6ab9-4a72-4385-b066-d2a51202391b")
-	)
-	(wire
-		(pts
 			(xy 244.475 222.25) (xy 244.475 204.47)
 		)
 		(stroke
@@ -10223,6 +10290,16 @@
 			(type default)
 		)
 		(uuid "3e72c159-83ff-47d6-ba48-3678ecaf0976")
+	)
+	(wire
+		(pts
+			(xy 316.23 209.55) (xy 312.42 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3edd50a8-bf76-45a4-ae1f-fe5b3efa27a4")
 	)
 	(wire
 		(pts
@@ -10503,16 +10580,6 @@
 			(type default)
 		)
 		(uuid "513e9ee4-4799-41a4-b91d-231b3e94e7de")
-	)
-	(wire
-		(pts
-			(xy 308.61 209.55) (xy 308.483 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51b19f27-3541-4f08-9c1a-43541f27c269")
 	)
 	(wire
 		(pts
@@ -11516,16 +11583,6 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 217.17) (xy 397.51 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90fa0465-7fe5-474b-8e7c-9f955c02a0f6")
-	)
-	(wire
-		(pts
 			(xy 147.32 244.475) (xy 135.89 244.475)
 		)
 		(stroke
@@ -11726,6 +11783,16 @@
 	)
 	(wire
 		(pts
+			(xy 402.59 217.17) (xy 398.78 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99cf2a02-fade-497e-ae45-11da9875260b")
+	)
+	(wire
+		(pts
 			(xy 37.465 233.68) (xy 30.48 233.68)
 		)
 		(stroke
@@ -11793,16 +11860,6 @@
 			(type default)
 		)
 		(uuid "a09cb1c4-cc63-49c7-a35f-4b80c3ba2217")
-	)
-	(wire
-		(pts
-			(xy 397.51 217.17) (xy 397.51 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a10b569c-d672-485d-9c05-2cb4795deeca")
 	)
 	(wire
 		(pts
@@ -12166,16 +12223,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 236.22) (xy 311.785 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8ccea06-1034-476b-ab75-a4a0de9e56a8")
-	)
-	(wire
-		(pts
 			(xy 142.875 47.371) (xy 142.875 49.911)
 		)
 		(stroke
@@ -12333,16 +12380,6 @@
 			(type default)
 		)
 		(uuid "c34ca215-f7bb-4e9e-a483-092c1c3ec159")
-	)
-	(wire
-		(pts
-			(xy 311.785 236.22) (xy 311.785 240.665)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3fc533e-e265-4fa7-ab31-2d3a0d925c73")
 	)
 	(wire
 		(pts
@@ -20868,81 +20905,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 388.62 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063d80e80")
-		(property "Reference" "SW_RST1"
-			(at 388.62 209.931 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW"
-			(at 388.62 212.2424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MM_Library:SW4_SKRPABE010_ALPS"
-			(at 388.62 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tech.alpsalpine.com/cms.media/product_spec_skrpabe010_en_c1c577738a.pdf"
-			(at 388.62 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 388.62 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C778166"
-			(at 388.62 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f970cbed-2b58-439b-912a-ad46ad8ebea8")
-		)
-		(pin "2"
-			(uuid "e73d3fed-5e8c-452a-866f-88a9d6e2351b")
-		)
-		(instances
-			(project "bloo"
-				(path "/9031bb33-c6aa-4758-bf5c-3274ed3ebab7"
-					(reference "SW_RST1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 339.09 209.55 0)
 		(unit 1)
@@ -21085,7 +21047,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 397.51 222.25 0)
+		(at 402.59 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21093,7 +21055,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063d80ea5")
 		(property "Reference" "#PWR0144"
-			(at 397.51 228.6 0)
+			(at 402.59 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21102,7 +21064,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 397.637 226.6442 0)
+			(at 402.717 221.5642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21110,7 +21072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 397.51 222.25 0)
+			(at 402.59 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21119,7 +21081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 397.51 222.25 0)
+			(at 402.59 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21128,7 +21090,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 397.51 222.25 0)
+			(at 402.59 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21565,70 +21527,6 @@
 			(project "bloo"
 				(path "/9031bb33-c6aa-4758-bf5c-3274ed3ebab7"
 					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 311.785 240.665 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "069648a6-1616-4e2f-ba4f-6e4af0f259f2")
-		(property "Reference" "#PWR012"
-			(at 311.785 247.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 311.912 245.0592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 311.785 240.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 311.785 240.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 311.785 240.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0afe6c75-076b-40b5-9e69-272e8038a976")
-		)
-		(instances
-			(project "bloo"
-				(path "/9031bb33-c6aa-4758-bf5c-3274ed3ebab7"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -22274,81 +22172,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 303.53 209.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34cedb37-34a2-465d-b4c7-098bb355b22e")
-		(property "Reference" "SW1"
-			(at 303.53 202.311 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW"
-			(at 303.53 204.6224 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MM_Library:SW4_SKRPABE010_ALPS"
-			(at 303.53 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tech.alpsalpine.com/cms.media/product_spec_skrpabe010_en_c1c577738a.pdf"
-			(at 303.53 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 303.53 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C778166"
-			(at 303.53 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4597be94-82cb-4c08-ac1f-e97419c67931")
-		)
-		(pin "2"
-			(uuid "f18d90d7-e765-4f87-af6f-9d4c09e99d8f")
-		)
-		(instances
-			(project "bloo"
-				(path "/9031bb33-c6aa-4758-bf5c-3274ed3ebab7"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 139.065 179.07 0)
 		(unit 1)
@@ -22609,6 +22432,112 @@
 			(project ""
 				(path "/9031bb33-c6aa-4758-bf5c-3274ed3ebab7"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SKRPABE010_1")
+		(lib_id "BUTTON:SKRPABE010")
+		(at 391.16 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c96081a-85fe-4c70-9fd3-78b3787849b0")
+		(property "Reference" "S3"
+			(at 391.16 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKRPABE010"
+			(at 391.16 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MM_Library:SW4_SKRPABE010_ALPS"
+			(at 391.16 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 391.16 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 391.16 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.5 mm"
+			(at 391.16 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Alps"
+			(at 391.16 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9d91fdc9-06ec-4658-aef5-a75d64fedd46")
+		)
+		(pin "3"
+			(uuid "f2979c14-a0b2-4ad3-b7e4-9a924f51f8fc")
+		)
+		(pin "2"
+			(uuid "bef40f38-2eb7-49c1-9369-95988a0ef150")
+		)
+		(pin "1"
+			(uuid "44f9e75b-400e-46d4-97c1-a61ec2113796")
+		)
+		(instances
+			(project "bloo"
+				(path "/9031bb33-c6aa-4758-bf5c-3274ed3ebab7"
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -24043,7 +23972,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 308.483 211.582 0)
+		(at 316.23 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24051,7 +23980,7 @@
 		(dnp no)
 		(uuid "8f4fecbc-2b1d-4553-9af2-9eaee2521324")
 		(property "Reference" "#PWR0119"
-			(at 308.483 217.932 0)
+			(at 316.23 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24060,7 +23989,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 308.229 215.9 0)
+			(at 315.976 213.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24068,7 +23997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 308.483 211.582 0)
+			(at 316.23 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24077,7 +24006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.483 211.582 0)
+			(at 316.23 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24086,7 +24015,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 308.483 211.582 0)
+			(at 316.23 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24100,6 +24029,112 @@
 			(project "bloo"
 				(path "/9031bb33-c6aa-4758-bf5c-3274ed3ebab7"
 					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SKRPABE010_1")
+		(lib_id "BUTTON:SKRPABE010")
+		(at 306.07 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9401e1a2-6df7-40a7-9b99-21d46c8a6e41")
+		(property "Reference" "S2"
+			(at 306.07 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKRPABE010"
+			(at 306.07 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MM_Library:SW4_SKRPABE010_ALPS"
+			(at 306.07 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 306.07 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 306.07 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.5 mm"
+			(at 306.07 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Alps"
+			(at 306.07 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7aa0a3e4-2ea8-4562-abc0-18a75a2185d3")
+		)
+		(pin "3"
+			(uuid "3f61fc19-9a4e-4b1a-833c-b52aed643ac1")
+		)
+		(pin "2"
+			(uuid "8bf6231e-2a16-4308-9af0-e73004684e84")
+		)
+		(pin "1"
+			(uuid "47fa296e-bbef-4016-ad47-9a8e5d8a366a")
+		)
+		(instances
+			(project "bloo"
+				(path "/9031bb33-c6aa-4758-bf5c-3274ed3ebab7"
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -24657,81 +24692,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 303.53 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a40c688b-f02b-404b-9107-7ae0a957d430")
-		(property "Reference" "SW2"
-			(at 303.53 228.981 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW"
-			(at 303.53 231.2924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MM_Library:SW4_SKRPABE010_ALPS"
-			(at 303.53 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tech.alpsalpine.com/cms.media/product_spec_skrpabe010_en_c1c577738a.pdf"
-			(at 303.53 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 303.53 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C778166"
-			(at 303.53 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "833fa017-51a0-4c11-98ed-9801f394fa16")
-		)
-		(pin "2"
-			(uuid "2477525b-9298-418a-ab6f-8ae151885324")
-		)
-		(instances
-			(project "bloo"
-				(path "/9031bb33-c6aa-4758-bf5c-3274ed3ebab7"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
 		(at 370.84 114.3 0)
@@ -25185,6 +25145,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 317.5 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4216817-ebe6-4996-9e4b-e9eb0cf9c818")
+		(property "Reference" "#PWR012"
+			(at 317.5 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 317.246 240.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 317.5 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d20db33-cc9f-43f5-9b25-90e6a5f53e90")
+		)
+		(instances
+			(project "bloo"
+				(path "/9031bb33-c6aa-4758-bf5c-3274ed3ebab7"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 287.02 175.26 0)
@@ -25389,6 +25413,112 @@
 			(project ""
 				(path "/9031bb33-c6aa-4758-bf5c-3274ed3ebab7"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SKRPABE010_1")
+		(lib_id "BUTTON:SKRPABE010")
+		(at 304.8 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8e640cd-b32b-4231-a9aa-2e2152c71d95")
+		(property "Reference" "S5"
+			(at 304.8 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKRPABE010"
+			(at 304.8 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MM_Library:SW4_SKRPABE010_ALPS"
+			(at 304.8 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 304.8 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.5 mm"
+			(at 304.8 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Alps"
+			(at 304.8 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0adcb21c-a485-4d4c-9708-87f02c440bbd")
+		)
+		(pin "3"
+			(uuid "887ab9b8-7b66-4361-9592-89ce71fd80bd")
+		)
+		(pin "2"
+			(uuid "fde684e1-6899-4c85-9c42-95584dd47677")
+		)
+		(pin "1"
+			(uuid "d03e2402-38f5-4f5a-8b4d-7c3644d69f4c")
+		)
+		(instances
+			(project "bloo"
+				(path "/9031bb33-c6aa-4758-bf5c-3274ed3ebab7"
+					(reference "S5")
 					(unit 1)
 				)
 			)
