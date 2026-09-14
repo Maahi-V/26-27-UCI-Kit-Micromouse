@@ -36,6 +36,10 @@ fp-info-cache       # Footprint Cache
 *.dsn               # SPECCTRA DSN File
 *.ses               # SPECCTRA Session File
 
+# Backup files from KiCad 10
+*.bak
+.history
+
 # Exported BOM files
 #*.xml
 #*.csv
@@ -50,7 +54,6 @@ espressif-kicad-addon.zip
 # .lck files lead to loading errors in KiCad for multiple users
 *.lck
 \#auto_saved_files\#
-.history
 
 # === STM32CubeIDE Files (not done) ===
 
