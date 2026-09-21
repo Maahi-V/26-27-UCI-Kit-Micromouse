@@ -23,28 +23,38 @@ This repository contains:
 <details>
 <summary><b>Windows</b></summary>
 
-1. Select **Next** 2 times, and give permissions to the installer.
+1. Download and Launch the installer: https://www.kicad.org/download/windows/
 
-2. At "Choose Components," make sure all check boxes are selected 
+<img src="img/kicad-windows1.png" width="500">
+
+
+2. Select **Next** 2 times, and give permissions to the installer.
+
+3. At "Choose Components," make sure all check boxes are selected 
 (should be default)
 
-<img src="img/kicad-windows.png" width="500">
+<img src="img/kicad-windows2.png" width="500">
 
-3. Select **Next**, and then install.
+4. Select **Next**, and then install.
 </details>
 
 <details>
 <summary><b>macOS</b></summary>
 
-1. Double-click `kicad-unified-universal-#.#.#.dmg` file in finder
+1. Download the installer: https://www.kicad.org/download/macos/
+
+2. Double-click `kicad-unified-universal-#.#.#.dmg` file in finder
 
 <img src="img/kicad-mac1.png" width="600">
 
-2. Click and drag the `KiCad.app` to Application folder.
+3. Click and drag the `KiCad.app` to Application folder.
 
-3. Close the window, and Eject the `.dmg` file from Finder.
+<img src="img/kicad-mac2.png" width="300">
 
-<img src="img/kicad-mac2.png" height="300">
+
+4. Close the window, and Eject the `.dmg` file from Finder.
+
+<img src="img/kicad-mac3.png" height="300">
 </details>
 
 <details>
@@ -152,6 +162,7 @@ Source:
 2. Login or Create your GitHub account, and authorize access:
 
 <img src="img/github-desktop1.png" width="600">
+
 <img src="img/github-desktop2.png" width="300">
 
 3. Setup your Git Username and Email
