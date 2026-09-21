@@ -128,8 +128,12 @@ Install `git` with package manager or build from source,
 as seen from this site: [https://git-scm.com/install/linux](https://git-scm.com/install/linux).
 </details>
 
+---
+
 
 #### Setting up GitHub Authentication
+
+Source: [https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github)
 
 After installing git, you need to configure a few things before being
 able to edit your remote repositories on GitHub.
@@ -151,8 +155,8 @@ Source:
 <img src="img/github-desktop2.png" width="300">
 
 3. Setup your Git Username and Email
-   - Select "Configure Manually" if you already setup `user.email` 
-     and `user.name` before
+   - Select "Configure Manually" if `user.email` 
+     and `user.name` have been setup before
 
 <img src="img/github-desktop3.png" width="600">
 
@@ -160,9 +164,25 @@ Source:
 
 <details>
 <summary><b>GitHub CLI</b></summary>
-Source: 
 
+Source: 
+ - https://cli.github.com/manual/gh_auth_login
+ - https://docs.github.com/en/github-cli/github-cli/quickstart#prerequisites
+<br></br>
 1. Install GitHub CLI with this link: https://cli.github.com/
+2. Follow the prompts below:
+   - Authentication with HTTPS, so authentication automatically
+       used for HTTPS repo clones
+   - `.gitconfig` will be modified
+
+<img src="img/github-cli1.png" width="600">
+
+
+</details>
+
+<details>
+<summary><b>Personal Access Tokens</b></summary>
+Source: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
 </details>
 
 
