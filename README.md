@@ -175,13 +175,14 @@ Source:
        used for HTTPS repo clones
    - `.gitconfig` will be modified
 
-<img src="img/github-cli1.png" width="600">
+<img src="img/github-cli1.png" width="800">
 
 
 </details>
 
 <details>
 <summary><b>Personal Access Tokens</b></summary>
+
 Source: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
 </details>
 
@@ -191,7 +192,6 @@ Source: https://docs.github.com/en/authentication/keeping-your-account-and-data-
 
 #### Other Git Tools
 For a GUI experience, try out these software:
- - [GitHub Desktop](https://docs.github.com/en/desktop/overview/about-github-desktop).
  - Connecting GitHub to VS Code, and utilizing [Source Control](https://code.visualstudio.com/docs/sourcecontrol/overview)
 
 
@@ -202,7 +202,7 @@ For a GUI experience, try out these software:
 
 Source: [https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
-1. Click the green button labled **<> Code**
+1. At the top of this page, click the green button labled **<> Code**
 
 <img src="img/clone1.png" width="600">
 
@@ -213,7 +213,7 @@ Source: [https://docs.github.com/en/repositories/creating-and-managing-repositor
 3. Open your terminal, change directory to somewhere you want to put your 
 local repository in.
 
-4. Type `git clone `, then paste and run the command:
+4. Type `git clone`, then paste and run the command:
 ```sh
 $ git clone https://github.com/Maahi-V/26-27-UCI-Kit-Micromouse.git
 >   Cloning into '26-27-UCI-Kit-Micromouse'...
@@ -230,12 +230,25 @@ $ git clone https://github.com/Maahi-V/26-27-UCI-Kit-Micromouse.git
 <summary><b>GitHub Desktop</b></summary>
 
 Source: [https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop).
+
+1. At the top of this page, click the green button labled **<> Code**
+
+<img src="img/clone1.png" width="600">
+
+2. Then select **Open with GitHub Desktop**
+
+<img src="img/github-desktop-clone1.png" width="500">
+
+3. Choose where the local Clone Repo location, and then press **Clone**
+
+<img src="img/github-desktop-clone2.png" width="500">
+
 </details>
 
 
 
 
-## Turning local repository into a GitHub remote repository
+## Push local repository into a GitHub remote repository
 
 
 
