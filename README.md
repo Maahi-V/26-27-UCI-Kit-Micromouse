@@ -129,11 +129,44 @@ as seen from this site: [https://git-scm.com/install/linux](https://git-scm.com/
 </details>
 
 
-#### Setting up SSH Keys
+#### Setting up GitHub Authentication
 
 After installing git, you need to configure a few things before being
 able to edit your remote repositories on GitHub.
 
+> [!NOTE]
+> If Authentication is via GitHub Desktop, Git environment (in cli) does
+> not also get authentication.
+<details>
+<summary><b>GitHub Desktop</b></summary>
+Source: 
+
+[https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/authenticating-to-github-in-github-desktop](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/authenticating-to-github-in-github-desktop)
+
+1. Install and Run GitHub Desktop: https://desktop.github.com/download/
+
+2. Login or Create your GitHub account, and authorize access:
+
+<img src="img/github-desktop1.png" width="600">
+<img src="img/github-desktop2.png" width="300">
+
+3. Setup your Git Username and Email
+   - Select "Configure Manually" if you already setup `user.email` 
+     and `user.name` before
+
+<img src="img/github-desktop3.png" width="600">
+
+</details>
+
+<details>
+<summary><b>GitHub CLI</b></summary>
+Source: 
+
+1. Install GitHub CLI with this link: https://cli.github.com/
+</details>
+
+
+---
 
 
 #### Other Git Tools
@@ -178,6 +211,8 @@ $ git clone https://github.com/Maahi-V/26-27-UCI-Kit-Micromouse.git
 
 Source: [https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop).
 </details>
+
+
 
 
 ## Turning local repository into a GitHub remote repository
