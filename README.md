@@ -250,6 +250,71 @@ Source: [https://docs.github.com/en/desktop/adding-and-cloning-repositories/clon
 
 ## Push local repository into a GitHub remote repository
 
+<details>
+<summary><b>GitHub Desktop</b></summary>
+
+
+</details>
+
+
+
+<details>
+<summary><b>With `github.com` and Terminal</b></summary>
+
+1. Go to your GitHub Dashboard (at [https://github.com/](https://github.com/) and login),
+and press the **+** button, then **New repository**
+
+<img src="img/new-repo1.png" width="500">
+
+2. Configure your repository to whatever you like, just make sure
+   these 2 settings are set (since cloned repo already has a README
+   and `.gitignore` configured)
+
+<img src="img/new-repo2.png" width="500">
+
+3. Now you should see **Quick Setup**, but the local repository
+   needs to be modified a bit before being pushed to the remote
+   server.
+
+<img src="img/new-repo3.png" width="700">
+
+4. Go back to your local git repository, and make sure you have
+   hidden files disabled
+   - Windows: In File Explorer, go to View -> Show -> Hidden Items
+   - macOS: In finder, use `Cmd + Shift + .` to show hidden files
+
+<img src="img/new-repo4-1.png" width="500">
+
+<img src="img/new-repo4-2.png" width="500">
+
+5. Delete the `.git` folder (contains the local repo edit history) and 
+   revert the local repository back to a normal folder
+   - After cloning the repository, it still has commits made by other 
+     people. To start fresh, these commits needs to be deleted
+
+6. Copy-paste this command to create a new local git repository: 
+```
+git init
+git add -A
+git commit -m "First Commit"
+```
+
+7. Then go back to GitHub, and copy-paste the commands under 
+ **…or push an existing repository from the command line**
+
+<img src="img/new-repo5.png" width="700">
+
+8. Reload the GitHub page, and your remote repository should now
+   show up
+
+
+</details>
+
+
+> [!TIP]
+> Update and personalize this README page! Feel free to edit/replace 
+> the README.md to be about your project instead.
+
 
 
 ## Helpful Git Commands
