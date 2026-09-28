@@ -206,7 +206,26 @@ For a GUI experience, try out these software:
  - Connecting GitHub to VS Code, and utilizing [Source Control](https://code.visualstudio.com/docs/sourcecontrol/overview)
 
 
-## Cloning this Repository
+## Cloning This Repository
+
+<details>
+<summary><b>GitHub Desktop</b></summary>
+
+Source: [https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop).
+
+1. At the top of this page, click the green button labled **<> Code**
+
+<img src="img/clone1.png" width="600">
+
+2. Then select **Open with GitHub Desktop**
+
+<img src="img/github-desktop-clone1.png" width="500">
+
+3. Choose where the local Clone Repo location, and then press **Clone**
+
+<img src="img/github-desktop-clone2.png" width="500">
+
+</details>
 
 <details>
 <summary><b>On Terminal</b></summary>
@@ -237,29 +256,10 @@ $ git clone https://github.com/Maahi-V/26-27-UCI-Kit-Micromouse.git
 ```
 </details>
 
-<details>
-<summary><b>GitHub Desktop</b></summary>
-
-Source: [https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop).
-
-1. At the top of this page, click the green button labled **<> Code**
-
-<img src="img/clone1.png" width="600">
-
-2. Then select **Open with GitHub Desktop**
-
-<img src="img/github-desktop-clone1.png" width="500">
-
-3. Choose where the local Clone Repo location, and then press **Clone**
-
-<img src="img/github-desktop-clone2.png" width="500">
-
-</details>
 
 
 
-
-## Push local repository into a GitHub remote repository (Initial)
+## Push Local Repository into a GitHub Remote Repository (Initial)
 
 <details>
 <summary><b>GitHub Desktop</b></summary>
@@ -377,8 +377,105 @@ git commit -m "First Commit"
 > the README.md to be about your project instead.
 
 
-## Push local repository into a GitHub remote repository (Initial)
+## Push Local Edits to Remote Repository
 
+When sharing edits to other teamates, users have to use `git push` 
+push/share their local edits to the remote repository. 
+
+Teamates then need to use `git pull` to obtain 
+the new edits to their local repository.
+
+The example below has the following local edits:
+ - `README.md` file modified
+ - New file `temp.txt`
+
+When pushing edits to the remote server, *you can control what remote file
+gets updated* by staging the local files you want to be updated.
+
+In this example ONLY the `README.md` edits are shared, 
+and `temp.txt` is not shared.
+
+<details>
+<summary><b>GitHub Desktop</b></summary>
+1. GitHub Desktop should have an overview of the local edits made.
+
+Here is `README.md`
+
+<img src="img/push-desktop1.png" width="700">
+
+... and here is `temp.txt`
+
+<img src="img/push-desktop2.png" width="700">
+
+2. Only the `README.md` file should get updated, so unstage `temp.txt` 
+   by unchecking this box at the left
+
+<img src="img/push-desktop3.png" width="700">
+
+The bottom **Commit 2 files to main** button should now change to **Commit 1 file to main** instead
+
+<img src="img/push-desktop4.png" width="200">
+
+3. Write a Commit Message and Description, and press **Commit 1 file to main** 
+   to create a new commit
+   - Commits are saved as an edit history
+   - Use commits as a checkpoint completed, and to organize the work you made
+   - This commit is only recorded locally
+   - Commit Summary: Write a concise change made, and easy to understand
+   - If needed, add more details in Commit Description
+
+<img src="img/push-desktop5.png" width="300">
+
+
+Edits from `temp.txt` has not been recorded/commit, so GitHub Desktop
+still display the file
+
+<img src="img/push-desktop6.png" width="700">
+
+4. Now push your local commits to origin (the remote server)
+ - Recommended to push multiple commits at once, instead of commit once then immediately push.
+ - It is easier to fix mistakes in local commits that are not pushed yet, 
+   or to squash multiple local commits into one for a cleaner commit history
+
+<img src="img/push-desktop7.png" width="700">
+
+
+
+</details>
+
+<details>
+<summary><b>On Terminal</b></summary>
+
+</details>
+
+
+## Pull Remote Edits to Local Repository
+
+<details>
+<summary><b>GitHub Desktop</b></summary>
+
+1. If available, select **Fetch Origin** to check if there are any new
+   remote edits
+
+<img src="img/pull-desktop1.png" width="700">
+
+2. Detected that the remote repository is updated, button becomes **Pull Origin**
+
+<img src="img/pull-desktop2.png" width="700">
+
+3. Now the local repository is updated. Check **History** to see what
+   edits are made
+
+<img src="img/pull-desktop3.png" width="700">
+
+</details>
+
+
+
+<details>
+<summary><b>On Terminal</b></summary>
+
+</details>
 
 
 ## Helpful Git Commands
