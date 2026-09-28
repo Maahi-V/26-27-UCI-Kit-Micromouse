@@ -259,10 +259,60 @@ Source: [https://docs.github.com/en/desktop/adding-and-cloning-repositories/clon
 
 
 
-## Push local repository into a GitHub remote repository
+## Push local repository into a GitHub remote repository (Initial)
 
 <details>
 <summary><b>GitHub Desktop</b></summary>
+
+1. Find you local git repository in your file manager, and make sure you 
+   have hidden files enabled
+   - Windows: In File Explorer, go to View -> Show -> Hidden Items
+   - macOS: In finder, use `Cmd + Shift + .` to show hidden files
+
+<img src="img/new-repo4-1.png" width="500">
+
+<img src="img/new-repo4-2.png" width="500">
+
+2. Delete the `.git` folder (contains the local repo edit history) and 
+   revert the local repository back to a normal folder
+   - After cloning the repository, it still has commits made by other 
+     people. To start fresh, these commits needs to be deleted
+
+3. GitHub Desktop should now have an error popup, and **"Remove"** this repo
+   to stop tracking it
+
+<img src="img/new-repo-desktop1.png" width="700">
+
+4. Select **Add an Existing Repository from your Local Drive...**
+
+<img src="img/new-repo-desktop2.png" width="700">
+
+5. Find the location of the local repo (default location is `~/Documents/GitHub/`), and
+   press **Add Repository**
+
+<img src="img/new-repo-desktop3.png" width="400">
+
+6. Now select **create a repository**
+
+<img src="img/new-repo-desktop4.png" width="400">
+
+7. GitHub Desktop automatically fills out everything required. Keep
+   everything as default and select **Create Repository**
+
+<img src="img/new-repo-desktop5.png" width="400">
+
+8. After creation, GitHub Desktop would automatically create a commit.
+   Select the **Publish repository** to create a new remote repo
+
+<img src="img/new-repo-desktop6.png" width="600">
+
+9. Insert a name and description of the project, and select **Publish Repository**
+
+<img src="img/new-repo-desktop7.png" width="400">
+
+10. Now you can view your repository on browser as well
+
+<img src="img/new-repo-desktop8.png" width="600">
 
 
 </details>
@@ -290,7 +340,7 @@ and press the **+** button, then **New repository**
 <img src="img/new-repo3.png" width="700">
 
 4. Go back to your local git repository, and make sure you have
-   hidden files disabled
+   hidden files enabled
    - Windows: In File Explorer, go to View -> Show -> Hidden Items
    - macOS: In finder, use `Cmd + Shift + .` to show hidden files
 
@@ -325,6 +375,9 @@ git commit -m "First Commit"
 > [!TIP]
 > Update and personalize this README page! Feel free to edit/replace 
 > the README.md to be about your project instead.
+
+
+## Push local repository into a GitHub remote repository (Initial)
 
 
 
