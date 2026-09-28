@@ -446,6 +446,92 @@ still display the file
 <details>
 <summary><b>On Terminal</b></summary>
 
+1. Check overall status of the local repo with `git status`
+ - Modified File: File already on remote server, but locally is edited
+ - Untracked files: New file not tracked by remote server
+```
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	temp.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+2. Only stage `README.md` with `git add <file>`
+ - Also you can stage all files with `git add -A`
+```
+$ git add README.md
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	temp.txt
+```
+
+3. Create a commit with `git commit`, and use `-m` to append the commit
+   message
+```
+$ git commit -m "Modified README.md"
+[main 7311eae] Modified README.md
+ 1 file changed, 1 insertion(+)
+```
+
+Now local repo should be ahead of `origin/main` (since local repo has newer commits than remote repo),
+and `temp.txt` is not included in the commit
+```
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	temp.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+
+$ git whatchanged
+commit 7311eae2b4a877c8229590e44fe4e0f08f418967 (HEAD -> main)
+Author: Justin Chen <justin7.chen@gmail.com>
+Date:   Mon Sep 28 00:05:22 2026 -0700
+
+    Modified README.md
+
+:100644 100644 404fe81 91129e9 M        README.md
+```
+
+4. Now push your local edits to remote server with `git push`
+```
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 279 bytes | 279.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/hippoBus/testin.git
+   0ab9dcf..7311eae  main -> main
+```
+
+
 </details>
 
 
@@ -474,6 +560,29 @@ still display the file
 
 <details>
 <summary><b>On Terminal</b></summary>
+
+1. Check if there are any remote changes with `git fetch`
+  - No changes, `git fetch` results without any output
+```
+$ git fetch
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 908 bytes | 151.00 KiB/s, done.
+From https://github.com/hippoBus/testin
+   7311eae..97050af  main       -> origin/main
+```
+
+2. Obtain new changes and rebase to edits in `origin/main` with `git pull`
+```
+$ git pull
+Updating 7311eae..97050af
+Fast-forward
+ README.md | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+```
+
 
 </details>
 
