@@ -20,7 +20,7 @@
 *.bck               # Old ver. For Symbol Editor
 *.kicad_pcb-bak     # For Board File except layout
 *.kicad_sch-bak     # For Schematics
-#*.kicad_prl        # Local Project Settings
+*.kicad_prl        # Local Project Settings
 *.sch-bak           # For Schematic (KiCad 5.x or earlier)
 *~
 _autosave-*
@@ -28,6 +28,7 @@ _autosave-*
 *-save.pro          # For Project File
 *-save.kicad_pcb    # PCB Layout File
 fp-info-cache       # Footprint Cache
+bloo-backups/
 
 # Netlist files (exported from Eeschema)
 *.net
