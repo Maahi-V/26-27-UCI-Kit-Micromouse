@@ -1,6 +1,7 @@
 # === General Files ===
 # Don't include .DS_STORE, prevent clutter
 .DS_Store
+Thumbs.db
 
 # === KiCad Files ===
 # Setup with the following resources
@@ -28,6 +29,7 @@ _autosave-*
 *-save.pro          # For Project File
 *-save.kicad_pcb    # PCB Layout File
 fp-info-cache       # Footprint Cache
+*-cashe.lib
 bloo-backups/
 
 # Netlist files (exported from Eeschema)
@@ -51,7 +53,7 @@ espressif-kicad-addon.zip
 
 # Extra Files
 # Ignore directory with backup zip files
-*-backups
+*-backups/
 # .lck files lead to loading errors in KiCad for multiple users
 *.lck
 \#auto_saved_files\#
